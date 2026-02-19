@@ -12,10 +12,14 @@ Every project here is designed to:
 
 ### Projects
 
-- **Agent Collaboration Framework** — coordinates multi-agent workflows with scoped Work Packets, checkpoints, and CI validation to prevent silent failures.  
+- **AI Agent Collaboration Framework** — coordinates multi-agent workflows with scoped Work Packets, checkpoints, and CI validation to prevent silent failures.  
   Repo: https://github.com/tescoder/ai-agent-collab-framework  
   Highlights: explicit authorization + verification steps (Work Packets), evidence-backed closure (append-only inbox + approval ledger), deterministic packet linter + one-command verification (`bash run.sh`), built for teams coordinating parallel AI sessions within a single initiative.  
   Live docs (GitHub Pages): https://tescoder.github.io/ai-agent-collab-framework/
+
+- **AI-Enhanced Portfolio Optimization Platform** — FastAPI + CVXPY portfolio engine with explainable outputs and a Next.js dashboard.  
+  Repo: https://github.com/tescoder/ai-enhanced-portfolio-optimization-platform  
+  Highlights: Markowitz (`/optimize`) with constraints, `/efficient_frontier`, Black–Litterman views, regime-aware tilt, stress testing, deterministic explanation payload, and a local Stooq ETF dataset (12 symbols) for reproducible runs; planned: CVaR objective, stronger regime models, backtesting, caching/CI polish, bring-your-own CSV upload.
 
 - **LLM-to-SQL Enterprise Query Assistant** — plain-English questions to SQL-backed answers, with transparency and safety controls.  
   Repo: https://github.com/tescoder/llm-to-sql-enterprise-query-assistant  
