@@ -19,11 +19,14 @@ Every project here is designed to:
 
 - **AI-Enhanced Portfolio Optimization Platform** — FastAPI + CVXPY portfolio engine with explainable outputs and a Next.js dashboard.  
   Repo: https://github.com/tescoder/ai-enhanced-portfolio-optimization-platform  
-  Highlights: Markowitz (`/optimize`) with constraints, `/efficient_frontier`, Black–Litterman views, regime-aware tilt, stress testing, deterministic explanation payload, and a local Stooq ETF dataset (12 symbols) for reproducible runs; planned: CVaR objective, stronger regime models, backtesting, caching/CI polish, bring-your-own CSV upload.
+  Highlights: Markowitz (`/optimize`) with constraints, `/efficient_frontier`, Black–Litterman views, regime-aware tilt, stress testing, deterministic explanation payload, and a local Stooq ETF dataset (12 symbols) for reproducible runs; planned: CVaR objective, stronger regime models, backtesting, caching/CI polish, bring-your-own CSV upload.  
+  Live docs (GitHub Pages): https://tescoder.github.io/ai-enhanced-portfolio-optimization-platform/  
+  Note: Pages will host quick references for the mathematical and research background powering this platform; an interactive optimizer would need a separate deployed API/UI “Live demo” link.
 
 - **LLM-to-SQL Enterprise Query Assistant** — plain-English questions to SQL-backed answers, with transparency and safety controls.  
   Repo: https://github.com/tescoder/llm-to-sql-enterprise-query-assistant  
-  Highlights: read-only enforcement (SELECT-only + keyword blocking), multi-statement blocking, default result cap (`LIMIT 200`), server-side validation of generated SQL, one-shot repair retry on execution errors, CI checks (`black --check`, `pytest`, Docker build).
+  Highlights: read-only enforcement (SELECT-only + keyword blocking), multi-statement blocking, default result cap (`LIMIT 200`), server-side validation of generated SQL, one-shot repair retry on execution errors, CI checks (`black --check`, `pytest`, Docker build).  
+  Live docs (GitHub Pages): https://tescoder.github.io/llm-to-sql-enterprise-query-assistant/
 
 - **Arcades** — SwiftUI iOS mini-arcade with a clean app shell, shared state, and production-style build checks.  
   Repo: https://github.com/tescoder/arcades  
