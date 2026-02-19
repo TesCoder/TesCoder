@@ -1,4 +1,4 @@
-# TesCoder — Production-Ready AI & Systems Engineering
+# TesCoder — AI Systems & Backend Engineering
 
 I build AI-enabled systems that prioritize safety, validation, and operational reliability.
 
@@ -20,10 +20,6 @@ Every project here is designed to:
 - **LLM-to-SQL Enterprise Query Assistant** — plain-English questions to SQL-backed answers, with transparency and safety controls.  
   Repo: https://github.com/tescoder/llm-to-sql-enterprise-query-assistant  
   Highlights: read-only enforcement (SELECT-only + keyword blocking), multi-statement blocking, default result cap (`LIMIT 200`), server-side validation of generated SQL, one-shot repair retry on execution errors, CI checks (`black --check`, `pytest`, Docker build).
-
-- **AI-Enhanced Portfolio Optimization Platform** — API-first portfolio allocation workflows with explicit constraints and a reproducible roadmap from baseline to optimized weights.  
-  Repo: https://github.com/tescoder/ai-enhanced-portfolio-optimization-platform  
-  Highlights: FastAPI service with `/optimize` equal-weight baseline today, config-driven spec for objectives + constraints, local ETF dataset for reproducible experiments, roadmap includes efficient frontier analysis, stress testing, and regime-aware overlays.
 
 - **Arcades** — SwiftUI iOS mini-arcade with a clean app shell, shared state, and production-style build checks.  
   Repo: https://github.com/tescoder/arcades  
