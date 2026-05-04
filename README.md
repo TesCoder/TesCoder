@@ -1,18 +1,38 @@
-# TesCoder — AI Systems & Backend Engineering
+# TesCoder — ML Systems & Generative AI Engineering
 
-I build AI-enabled systems that prioritize safety, validation, and operational reliability.
+I build machine learning systems that focus on **experimentation, validation, and reliable deployment**, with a growing focus on **generative AI and visual generation pipelines**.
 
-I focus on multi-agent orchestration, guarded LLM workflows, and backend infrastructure that translates AI capabilities into reliable, production-grade systems.
+My work spans:
+- Generative AI workflows (diffusion, ComfyUI, image/video pipelines)
+- Multi-agent and LLM systems with guardrails and validation
+- Backend infrastructure for deploying and evaluating ML systems at scale
 
 Every project here is designed to:
 - Run end-to-end (copy/paste quickstart)
 - Make constraints explicit (validation + guardrails)
 - Include deterministic checks where possible (tests/CI/scripts)
-- Stay honest about system boundaries
+- Support reproducible experimentation and debugging
 
+### Selected Focus Areas
+
+- **Generative AI & Visual Systems**
+  - Diffusion pipelines (ComfyUI, AnimateDiff)
+  - Image-to-video generation and temporal consistency
+  - Parameter tuning, prompt engineering, and output evaluation
+
+- **ML Systems & Experimentation**
+  - Reproducible pipelines and evaluation frameworks
+  - Failure case analysis and validation layers
+  - Multi-stage model workflows
+
+- **Production AI Systems**
+  - LLM orchestration with guardrails
+  - Backend systems for reliable model deployment
+  - CI-backed validation and monitoring
+  
 ### Projects
 
-- **AI Agent Collaboration Framework** — coordinates multi-agent workflows with scoped Work Packets, checkpoints, and CI validation to prevent silent failures.  
+- **AI Agent Collaboration Framework** — coordinates multi-agent workflows for structured experimentation, validation, and reliable execution of complex AI systems.  
   Repo: https://github.com/tescoder/ai-agent-collab-framework  
   Highlights: explicit authorization + verification steps (Work Packets), evidence-backed closure (append-only inbox + approval ledger), deterministic packet linter + one-command verification (`bash run.sh`), built for teams coordinating parallel AI sessions within a single initiative.  
   Live docs (GitHub Pages): https://tescoder.github.io/ai-agent-collab-framework/
@@ -27,6 +47,9 @@ Every project here is designed to:
   Repo: https://github.com/tescoder/llm-to-sql-enterprise-query-assistant  
   Highlights: read-only enforcement (SELECT-only + keyword blocking), multi-statement blocking, default result cap (`LIMIT 200`), server-side validation of generated SQL, one-shot repair retry on execution errors, CI checks (`black --check`, `pytest`, Docker build).  
   Live docs (GitHub Pages): https://tescoder.github.io/llm-to-sql-enterprise-query-assistant/
+
+- **Generative Image & Video Workflows (ComfyUI + AnimateDiff)** — node-based pipelines for controlled image and video generation (in progress)
+  Highlights: diffusion-based workflows, LoRA-controlled motion (pan/zoom), temporal consistency tuning, failure analysis (artifact reduction, stability improvements)
 
 - **Arcades** — SwiftUI iOS mini-arcade with a clean app shell, shared state, and production-style build checks.  
   Repo: https://github.com/tescoder/arcades  
