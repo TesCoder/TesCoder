@@ -66,4 +66,3 @@ Every project here is designed to:
 ### Contact
 
 - GitHub: https://github.com/tescoder
-- Resume: https://app.box.com/s/yr3bkoe1auaf75oehrutol9dnjmy612m
